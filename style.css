@@ -55,6 +55,52 @@ footer div {
 footer a   {
     color: #024e76;
 }
-
- 
+section {
+  padding: 60px;
+  
+}
+.hero {
+  background-image: url(images/hero-bg.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} 
+.hero-form {
+  color: #024e76;
+  background-color: #fce138;
+  width: 500px;
+  padding: 20px;
+  border: #024e76 solid 3px;
+  bottom: 120px;
+  right: 140px;
+  position: absolute;
+  
+}
+h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+.form-input {
+  border: #024e76 solid 1px;
+  display: block;
+  padding: 7px 15px;
+  font-size: 1rem;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.hero-form label {
+  margin: 0 5px;
+}
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
   
