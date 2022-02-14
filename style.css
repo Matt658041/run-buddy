@@ -28,7 +28,7 @@ header a {
   text-decoration: none;
 }
 header nav {
-    margin-right: 7px 0;
+    margin: 7px 0;
 }
 header nav ul {
   display: flex;
@@ -45,6 +45,9 @@ footer {
     background: #fce138; /* yellow */
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer h2 {
     
@@ -69,7 +72,6 @@ section {
 .hero {
   background-image: url(images/hero-bg.jpg);
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -126,7 +128,7 @@ section {
   font-size: 3.44rem;
   color: #024e76;
   border-bottom: 3px solid;
-  padding-bottom: 20px;
+  
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -147,6 +149,7 @@ section {
   margin: 0 auto;
   text-align: center;
 }
+/* steps */
 .steps {
   
   background: #fce138;
@@ -195,7 +198,7 @@ section {
   justify-content: space-between;
 }
 
-
+/*trainer  */
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
@@ -219,6 +222,7 @@ section {
 .text-right {
   text-align: right;
 }
+/* trainer bio */
 .trainer-bio h3 {
   font-size: 1.75rem;
   
@@ -233,6 +237,7 @@ section {
   font-size: 1.06rem;
  
 }
+/* contact info */
 .contact {
  
   background: #024e76;
