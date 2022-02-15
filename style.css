@@ -179,7 +179,10 @@ section {
 } 
 .her-form button:hover {
   background-color: #39a6b2;
-}
+  }
+  .checkbox-wrapper input, .radio-wrapper input {
+    opacity: 0;
+  }
 /* HERO STYLES END */
 
 
